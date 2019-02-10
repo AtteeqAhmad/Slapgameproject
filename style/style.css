@@ -3,20 +3,21 @@ body {
     background-color: rgb(5, 5, 5);
 }
 
-.Tom {
+#Tom {
+align-content: center;
 width: 500px;
-    height: 500px;
+height: 500px;
 
 }
 
 .aqua {
     color: aqua;
- text-align: center;
+    text-align: center;
+font-size: 70px;
 }
 
-#button {
-    background-color: darkgray;
-   padding: 15px;
-   margin: 15px;
 
+#button {
+    margin: 5px;
+    padding: 15px;
 }
