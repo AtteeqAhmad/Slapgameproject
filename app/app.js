@@ -20,12 +20,8 @@ let items = {
 function giveItems(item) {
     target.items.push(items[item].modifier)
 }
-function addMods() {
-    let
-
 
 }
-
 
 let target = {
     name: "Tom",
