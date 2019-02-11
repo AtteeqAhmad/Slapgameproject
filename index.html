@@ -18,46 +18,61 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12-md-8">
-                    <h1 class="aqua" d-flex justify-content-center> Slap you </h1>
+                    <h1 class="aqua" justify-content-center> Slap you </h1>
                     <div class="row">
                         <div class="col-sm-12-md-8">
-                            <h3 class="px-5"><span> Health: <span id="health">100%</span></span>
-                                <div class="col-sm-12-md-8">
-                                    <h4 class="px-5"><span> Hit: <span id="hit"> 0 </span></h4>
-                                </div>
-                                <div class="progres" </div> </div> </div> </div> </header> <main
-                                    class=" container-fluid">
-                                    <div class="row">
-                                        <div class="col-sm-12-md-8 justify-content-center">
-                                            <img id="slaptom" src="assets/Tom.jpg">
-                                            <h1 id="target">Tom</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                                </main>
+                            <h3><span> Health: <span id="health">100</span></span></h3>
+                            <div class="col-sm-12-md-8">
+                                <h4><span> Hit: <span id="hit"> 0 </span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class=" container-fluid">
+        <div class="row">
+            <div class="col-sm-12-md-8 justify-content-center">
+                <img id="slaptom" src="assets/Tom.jpg">
+                <h1 id="target">Tom</h1>
+            </div>
+        </div>
+        </div>
+    </main>
 
-                                <section class="energy">
+    <section class="energy">
 
-                                </section>
+    </section>
 
 
-                                <footer class="container">
-                                    <div class="row" id="SlapSlap">
-                                        <button onclick="Slap()" type="button"
-                                            class="col-sm-12-md-2 btn btn-outline-warning">Slap Me</button>
-                                        <button onclick="Kill()" type="button"
-                                            class="col-sm-12-md-2 btn btn-outline-warning">Kick Me</button>
-                                        <button onclick="Reset()" type="button"
-                                            class="col-sm-12-md-2 btn btn-outline-warning">Punch Me</button>
-                                        <button onclick="Health()" type="button"
-                                            class="col-sm-12-md-2 btn btn-outline-warning">Kill Me</button>
-                                        <button onclick="Another()" type="button"
-                                            class="col-sm-12-md-2 btn btn-outline-warning">Healthy Me</button>
-                                        <button onclick="Another()" type="button"
-                                            class="col-sm-12-md-2 btn btn-outline-warning">Reset Me</button>
-                                    </div>
-                                </footer>
-                                <script src="app/app.js">        </script>
+    <footer class="container">
+        <div class="row">
+            <div class="col-12">
+                <button onclick="slap()">slap</button>
+            </div>
+        </div>
+
+        <div class="div col-12">
+            <button onclick="punch()">punch</button>
+        </div>
+        <div class="div col-12">
+            <button onclick="kick()">kick</button>
+        </div>
+
+
+        <div class="row">
+            <div class="class col-12">
+                <button onclick="giveItem('sword')">sword</button>
+            </div>
+            <div class="class col-12">
+                <button onclick="hammer()">hammer</button>
+            </div>
+            <div class="class col-12">
+                <button onclick="cheese()">cheese</button>
+            </div>
+        </div>
+    </footer>
+    <script src="app/app.js"></script>
 </body>
 
 </html>

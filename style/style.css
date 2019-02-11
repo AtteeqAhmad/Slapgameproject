@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(247, 96, 26);
 }
 
 #Tom {
@@ -12,13 +12,12 @@ height: 500px;
 
 .aqua {
     color: aqua;
-    text-align: center;
 font-size: 70px;
 }
 
 
 #button {
-    margin: 5px;
+    margin: 15px;
     padding: 15px;
 }
 
